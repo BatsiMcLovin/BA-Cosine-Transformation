@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>OpenGL_Framework@Build</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>C:/MinGW/bin/mingw32-make.exe</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>C:/Users/Batsi/Documents/BA/Code/Build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>C:/Users/Batsi/Documents/BA/Code/Build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Source directory]</name>
+			<type>2</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src</location>
+		</link>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/Compute_Shader_Basti</name>
+			<type>2</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/executables/Compute_Shader_Basti</location>
+		</link>
+		<link>
+			<name>[Subprojects]/OpenGL_Framework</name>
+			<type>2</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src</location>
+		</link>
+		<link>
+			<name>[Subprojects]/Raytrace_Moritz</name>
+			<type>2</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/executables/Raytrace_Moritz</location>
+		</link>
+		<link>
+			<name>[Subprojects]/SHADERS</name>
+			<type>2</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/shaders</location>
+		</link>
+		<link>
+			<name>[Subprojects]/ShaderTools</name>
+			<type>2</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools</location>
+		</link>
+		<link>
+			<name>[Subprojects]/Test_ShaderTools_Minimal</name>
+			<type>2</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/executables/Test_ShaderTools_Minimal</location>
+		</link>
+		<link>
+			<name>[Subprojects]/Test_ShaderTools_Multipass</name>
+			<type>2</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/executables/Test_ShaderTools_Multipass</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Source Files/FrameBufferObject.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/FrameBufferObject.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Source Files/RenderPass.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/RenderPass.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Source Files/ComputeShaderTools.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/Sebastian_Tools/ComputeShaderTools.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Source Files/stb_image.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/Sebastian_Tools/stb_image.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Source Files/TextureTools.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/Sebastian_Tools/TextureTools.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Source Files/ShaderProgram.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/ShaderProgram.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Source Files/VertexArrayObject.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/VertexArrayObject.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Source Files/Cube.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/VertexArrayObjects/Cube.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Source Files/Quad.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/VertexArrayObjects/Quad.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/DefaultRenderLoop.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/DefaultRenderLoop.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/FrameBufferObject.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/FrameBufferObject.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/RenderPass.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/RenderPass.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/ComputeShaderTools.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/Sebastian_Tools/ComputeShaderTools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/NewRenderLoop.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/Sebastian_Tools/NewRenderLoop.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/NewRenderPass.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/Sebastian_Tools/NewRenderPass.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/stb_image.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/Sebastian_Tools/stb_image.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/TextureTools.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/Sebastian_Tools/TextureTools.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/ShaderProgram.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/ShaderProgram.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/VertexArrayObject.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/VertexArrayObject.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/Cube.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/VertexArrayObjects/Cube.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Header Files/Quad.h</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/VertexArrayObjects/Quad.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] ShaderTools/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Compute_Shader_Basti</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Compute_Shader_Basti/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Compute_Shader_Basti/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Compute_Shader_Basti/Source Files/test.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/executables/Compute_Shader_Basti/test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Compute_Shader_Basti/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Compute_Shader_Basti/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Compute_Shader_Basti/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Compute_Shader_Basti/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Raytrace_Moritz</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Raytrace_Moritz/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Raytrace_Moritz/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Raytrace_Moritz/Source Files/Raytrace.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/executables/Raytrace_Moritz/Raytrace.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Raytrace_Moritz/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Raytrace_Moritz/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Raytrace_Moritz/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Raytrace_Moritz/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Minimal</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Minimal/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Minimal/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Minimal/Source Files/test.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/executables/Test_ShaderTools_Minimal/test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Minimal/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Minimal/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Minimal/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Minimal/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Multipass</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Multipass/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Multipass/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Multipass/Source Files/test.cpp</name>
+			<type>1</type>
+			<location>C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/executables/Test_ShaderTools_Multipass/test.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Multipass/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Multipass/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Multipass/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Test_ShaderTools_Multipass/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

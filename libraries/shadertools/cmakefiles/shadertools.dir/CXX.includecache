@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Batsi/Documents/BA/Code/CG1_WS1314/dependencies/OpenGL/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/Sebastian_Tools/ComputeShaderTools.cpp
+GL/glew.h
+-
+ShaderTools/Sebastian_Tools/ComputeShaderTools.h
+-
+
+C:/Users/Batsi/Documents/BA/Code/OpenGL_Framework/src/libraries/ShaderTools/Sebastian_Tools/ComputeShaderTools.h
+

@@ -1,0 +1,6 @@
+C:/Users/Batsi/Documents/BA/Code/Build/executables/Compute_Shader_Basti/CMakeFiles/Compute_Shader_Basti.dir
+C:/Users/Batsi/Documents/BA/Code/Build/executables/Raytrace_Moritz/CMakeFiles/Raytrace_Moritz.dir
+C:/Users/Batsi/Documents/BA/Code/Build/shaders/CMakeFiles/SHADERS.dir
+C:/Users/Batsi/Documents/BA/Code/Build/libraries/ShaderTools/CMakeFiles/ShaderTools.dir
+C:/Users/Batsi/Documents/BA/Code/Build/executables/Test_ShaderTools_Minimal/CMakeFiles/Test_ShaderTools_Minimal.dir
+C:/Users/Batsi/Documents/BA/Code/Build/executables/Test_ShaderTools_Multipass/CMakeFiles/Test_ShaderTools_Multipass.dir
