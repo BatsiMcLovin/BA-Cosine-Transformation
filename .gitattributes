@@ -4,3 +4,4 @@
 .gitignore text
 *.md text
 *.cmake
+Makefile
